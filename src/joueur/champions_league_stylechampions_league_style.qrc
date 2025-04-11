@@ -1,0 +1,11 @@
+<!-- champions_league_style.qrc -->
+<RCC>
+    <qresource prefix="/styles">
+        <file>styles/champions_league_style.qss</file>
+    </qresource>
+
+    <qresource prefix="/assets">
+        <file alias="logo.jpeg">images/uefa_logo.jpeg</file>
+        <file alias="trophy.jpeg">images/uefa_trophy.jpeg</file>
+    </qresource>
+</RCC>
