@@ -1,0 +1,15 @@
+release/Joueur.o
+release/ajouterjoueur.o
+release/bestplayers.o
+release/main.o
+release/mainwindow.o
+release/modifierjoueur.o
+release/supprimerjoueur.o
+release/valeursmarchandes.o
+release/moc_Joueur.o
+release/moc_ajouterjoueur.o
+release/moc_bestplayers.o
+release/moc_mainwindow.o
+release/moc_modifierjoueur.o
+release/moc_supprimerjoueur.o
+release/moc_valeursmarchandes.o

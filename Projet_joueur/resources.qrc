@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/uefa_trophy.jpeg</file>
+    </qresource>
+</RCC>
