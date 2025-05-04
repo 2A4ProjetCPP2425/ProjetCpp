@@ -5,7 +5,7 @@
 #include "Joueur.h"
 
 Player::Player() : id(0), age(0) {}
-//a
+//jyhtgrf
 Player::Player(int id, QString nom, QString prenom, int age,
                QString poste, QString equipe, QString nationalite, QString rfid_uid) :
     id(id), nom(nom), prenom(prenom), age(age),
