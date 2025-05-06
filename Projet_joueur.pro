@@ -11,7 +11,8 @@ SOURCES += \
     ../equipe_window/equipe_window.cpp \
     ../equipe_window/g_equipe.cpp \
     ../untitled1/stade.cpp \
-    ../untitled1/stadewindow.cpp
+    ../untitled1/stadewindow.cpp \
+    ../Gestion_Tours/G_Tours.cpp
 
 HEADERS += \
     arduinomanager.h \
@@ -22,15 +23,17 @@ HEADERS += \
     ../equipe_window/equipe_window.h \
     ../equipe_window/g_equipe.h \
     ../untitled1/stade.h \
-    ../untitled1/stadewindow.h
+    ../untitled1/stadewindow.h \
+    ../Gestion_Tours/G_Tours.h
 
 FORMS += \
     Joueur.ui \
     mainwindow.ui \
     ../equipe_window/equipe_window.ui \
+    ../Gestion_Tours/G_Tours.ui \
     ../untitled1/stadewindow.ui
 
-INCLUDEPATH += ../equipe_window ../untitled1
+INCLUDEPATH += ../equipe_window ../untitled1 ../Gestion_Tours
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

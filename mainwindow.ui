@@ -132,7 +132,7 @@ QLabel#titleLabel {
      <string>Gestion des Stades</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="entraineur_b">
     <property name="geometry">
      <rect>
       <x>740</x>

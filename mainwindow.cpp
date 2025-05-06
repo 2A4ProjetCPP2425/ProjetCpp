@@ -9,6 +9,7 @@ MainWindow::MainWindow(QWidget *parent)
     , joueurWindow(nullptr)
     , equipeWindow(nullptr)
     , stadeWindow(nullptr)
+    , toursWindow(nullptr) // Initialize toursWindow
 {
     ui->setupUi(this);
     QPixmap pix("C:/Users/hedie/OneDrive - ESPRIT/Documents/Projet_joueur/x.jpg");
@@ -26,6 +27,7 @@ MainWindow::~MainWindow()
     delete joueurWindow;
     delete equipeWindow;
     delete stadeWindow;
+    delete toursWindow; // Clean up toursWindow
 }
 
 void MainWindow::on_joueur_b_clicked()
@@ -65,4 +67,15 @@ void MainWindow::switchBackToPlayer()
     if (stadeWindow) {
         stadeWindow->hide();
     }
+}
+
+void MainWindow::on_Tours_b_clicked()
+{
+    if (!toursWindow) {
+        toursWindow = new G_Tours(this);
+    }
+    toursWindow->show();
+    toursWindow->raise();
+    toursWindow->activateWindow();
+    this->hide(); // Hide the main window
 }
