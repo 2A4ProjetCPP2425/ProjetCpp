@@ -1,0 +1,16 @@
+release/arduinomanager.o
+release/main.o
+release/mainwindow.o
+release/Joueur.o
+release/connection.o
+release/player.o
+release/equipe_window.o
+release/g_equipe.o
+release/stade.o
+release/stadewindow.o
+release/moc_arduinomanager.o
+release/moc_mainwindow.o
+release/moc_Joueur.o
+release/moc_equipe_window.o
+release/moc_g_equipe.o
+release/moc_stadewindow.o

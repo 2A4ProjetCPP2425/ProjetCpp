@@ -1,0 +1,16 @@
+debug/arduinomanager.o
+debug/main.o
+debug/mainwindow.o
+debug/Joueur.o
+debug/connection.o
+debug/player.o
+debug/equipe_window.o
+debug/g_equipe.o
+debug/stade.o
+debug/stadewindow.o
+debug/moc_arduinomanager.o
+debug/moc_mainwindow.o
+debug/moc_Joueur.o
+debug/moc_equipe_window.o
+debug/moc_g_equipe.o
+debug/moc_stadewindow.o

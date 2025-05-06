@@ -11,8 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
     , stadeWindow(nullptr)
 {
     ui->setupUi(this);
-    QPixmap pix("C:/Users/hedie/OneDrive - ESPRIT/Documents/Projet_joueur/x.jpg");
-    ui->label_pic->setPixmap(pix);
+    QPixmap pix("C:/Users/hedie/OneDrive - ESPRIT/Documents/Projet_Football/Projet_joueur/x.jpg");    ui->label_pic->setPixmap(pix);
 
     arduinoManager = new ArduinoManager(this);
     if (!arduinoManager->connectArduino()) {
